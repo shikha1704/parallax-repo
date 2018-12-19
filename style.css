@@ -1,0 +1,230 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    font-weight: 300;
+    color: #555;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    margin-bottom: 2em;
+  }
+  
+  header {
+    margin: 0 0 20px 0;
+  }
+  
+  .pageTitle,
+  .pageSubTitle {
+    font-family: 'Titillium', sans-serif;
+    color: #000;
+    text-align: center
+  }
+  
+  .pageTitle {
+    color: #FF7600;
+  }
+  
+  .pageTitle {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .pageSubTitle {
+    margin-bottom: 1em;
+    font-size: 1.4em;
+    font-weight: 300;
+  }
+  
+  .background {
+    background: 
+      url("/images/part4.jpg")
+      repeat;
+    background-size: 100% auto;
+    position: fixed;
+    width: 100%;
+    height:300%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  /* .background1{
+    background: 
+      url("/images/party1.jpg")
+      repeat;
+    background-size: 100% auto;
+    position: fixed;
+    width: 100%;
+    height:300%;
+    top: 0;
+    left: 0;
+    z-index: -1
+  } */
+
+  .wrapper {
+    width: 520px;
+    padding: 10px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.25);
+    margin: 20% auto;
+  }
+
+  .wrapper1{
+    width: 98%;
+    padding: 10px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.25);
+    margin: 20% auto;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.5s ease-in-out;
+ 
+  }
+
+  .displayNone{
+      display: none;
+  }
+
+  .marginTop{
+      margin-top: 25%;
+  }
+
+  .secondImageSection{
+    height: 700px;
+    width: 100%;
+    background: url('./images/party2.jpg');
+    opacity: 0.7;
+  }
+
+  .thirdImageSection{
+    height: 600px;
+    width: 100%;
+    background: url('./images/party6.jpg');
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .partyImageSection{
+    height: 500px;
+    background: url('./images/Capture.png');
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: 100% 100%;
+    position: relative;
+  }
+
+  .venueSection{
+     margin-top: 20%;
+     background: #000;
+     opacity: 0;
+     position: fixed;
+     animation: fadeinout 4s linear forwards;
+  
+  }
+  .venueHeading{
+    color: #FF7600;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+  }
+
+  .is-showing{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  .wrapperLetsParty{
+    height:600px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 60px;
+  }
+
+  .content{
+    height: 450px;
+  }
+
+  .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+    width:50px;
+    text-align: center;
+    padding:15px;
+    color: #FF7600;
+    font-weight: 600;
+    font-size: 40px;
+    background-color:#000;
+}
+
+.copyright{
+  position: absolute;
+    right: 59px;
+    bottom: 120px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+  /* html{
+      height: 100%;
+      overflow: hidden;      
+  }
+
+  body{
+      margin:0;
+      padding: 0;
+      transform-style: preserve-3d;
+      height: 100%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+
+    }
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px #666;
+}
+
+.slide{
+    position: relative;
+    padding: 25% 10%;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0,0,0,0.7);
+    transform-style: inherit;
+}
+
+.slide:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 8px 1px rgba(0,0,0,0.7)
+
+}
+
+.slide, .slide:before{
+    background: 50% 50% / cover;
+}
+
+#intro{
+    background-image: url("./images/image1.jpg");
+    z-index: 2;
+}
+
+#slide1{
+    background-image: url("./images/images.jpg");
+    transform: translateZ(-1px) scale(2);
+} */
